@@ -1,10 +1,23 @@
-import styles from './Feed.module.css'
+import Card from './Card'
 
 function Feed() {
     return (
-        <div className={styles.container}>
-            <div className={styles.card}></div>
-            <div className={styles.card}></div>
+        <div>
+            <Card
+                nome="Ismael Chaves"
+            />
+
+            <Card
+                nome="Nathalya Lima"
+            />
+
+            <Card
+                nome="Guylherme Lima"
+            />
+
+            <Card
+                nome="Gabriel Araujo"
+            />
         </div>
     )
 }

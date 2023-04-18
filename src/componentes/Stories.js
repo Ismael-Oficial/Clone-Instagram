@@ -9,6 +9,8 @@ function Stories() {
             <div className={styles.card}></div>
             <div className={styles.card}></div>
             <div className={styles.card}></div>
+            <div className={styles.card}></div>
+            <div className={styles.card}></div>
         </div>
     )
 }
