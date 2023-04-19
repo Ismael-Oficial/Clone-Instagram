@@ -3,9 +3,16 @@
 }
 
 .card {
-    background: #cacaca;
+    background: linear-gradient(-90deg, #f70288, #e96004);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin: 3rem 1rem;
+}
+
+.card img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    margin: 3rem 1rem;
+    margin: 2.5px;
 }

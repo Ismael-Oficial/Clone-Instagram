@@ -1,10 +1,18 @@
 import styles from './LadoDireito.module.css'
+import Viuva from '../Imagens/Black-Widow.jpg'
+import Deadpool from '../Imagens/Deadpool.jpg'
+import Homelander from '../Imagens/Homelander.jpg'
+import Marvel from '../Imagens/Ms-Marvel.jpg'
+import Perfil from '../Imagens/perfil.jpg'
+
 
 function LadoDireito() {
     return (
         <div className={styles.content}>
             <div className={styles.container}>
-                <div className={styles.card}  id={styles.card}></div>
+                <div className={styles.card} id={styles.card}>
+                    <img src={Perfil} alt='' />
+                </div>
                 <p className={styles.subtxt}>IsmaelChaves2001</p>
                 <h5 className={styles.submudar}>Mudar</h5>
             </div>
@@ -14,23 +22,31 @@ function LadoDireito() {
             </div>
 
             <div className={styles.container}>
-                <div className={styles.card}></div>
-                <p>Nome do Usuario 1</p>
+                <div className={styles.card}>
+                    <img src={Viuva} alt='' />
+                </div>
+                <p>Naty.Romanoff</p>
                 <h5>Seguir</h5>
             </div>
             <div className={styles.container}>
-                <div className={styles.card}></div>
-                <p>Nome do Usuario 2</p>
+                <div className={styles.card}>
+                    <img src={Marvel} alt='' />
+                </div>
+                <p>Marvel_Danvers</p>
                 <h5>Seguir</h5>
             </div>
             <div className={styles.container}>
-                <div className={styles.card}></div>
-                <p>Nome do Usuario 3</p>
+                <div className={styles.card}>
+                    <img src={Homelander} alt='' />
+                </div>
+                <p>Capitain.Homelander</p>
                 <h5>Seguir</h5>
             </div>
             <div className={styles.container}>
-                <div className={styles.card}></div>
-                <p>Nome do Usuario 4</p>
+                <div className={styles.card}>
+                    <img src={Deadpool} alt='' />
+                </div>
+                <p>god.Deadpool</p>
                 <h5>Seguir</h5>
             </div>
         </div>

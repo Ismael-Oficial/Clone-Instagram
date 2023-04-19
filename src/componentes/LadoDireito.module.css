@@ -3,7 +3,14 @@ content {
     width: 30%;
 }
 
+.content2 {
+    display: flex;
+    flex-direction: row;
+}
+
 .container {
+    justify-content: space-between;
+    width: 100%;
     display: flex;
 }
 
@@ -15,6 +22,13 @@ content {
     margin: 3rem 1rem;
 }
 
+#card img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0rem;
+}
+
 .card {
     background: #cacaca;
     border-radius: 50%;
@@ -23,12 +37,19 @@ content {
     margin: 1rem 1rem;
 }
 
+.card img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0rem;
+}
+
 p {
     display: block;
     margin: 1.5rem 0rem;
 }
 
-.subtxt{
+.subtxt {
     display: block;
     margin: 4rem 0rem;
 }

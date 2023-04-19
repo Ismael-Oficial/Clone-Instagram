@@ -36,6 +36,10 @@
     border-radius: 5px;
 }
 
+.post img{
+    margin: 0rem;
+}
+
 .configs {
     font-size: large;
     font-weight: bold;
