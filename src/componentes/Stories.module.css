@@ -3,10 +3,10 @@
 }
 
 .card {
-    background: linear-gradient(-90deg, #f70288, #e96004);
+    border: 3px solid #e9045c;
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
+    width: 60px;
+    height: 60px;
     margin: 3rem 1rem;
 }
 
@@ -14,5 +14,5 @@
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    margin: 2.5px;
+    margin: 0px;
 }
