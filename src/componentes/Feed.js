@@ -21,7 +21,7 @@ function Feed() {
                 poster={Speed}
                 curtido="Batman.Oficial"
                 destaque="Iris.West"
-                comentario="Lorem Ipsum is simply dummy text of the printing and typesetting industry... "
+                comentario="Espero que você consiga chegar a tempo do aniversário da Nora, corre Barry, corre! "
             />
 
             <Card
@@ -30,7 +30,7 @@ function Feed() {
                 poster={Morales}
                 curtido="PeterParker"
                 destaque="Gwen.Stacy"
-                comentario="Lorem Ipsum is simply dummy text of the printing and typesetting industry... "
+                comentario="Saudades Miles, vamos marcar de nos encontrarmos novamente..."
             />
 
             <Card
@@ -39,7 +39,7 @@ function Feed() {
                 poster={Dual}
                 curtido="Robert.Hawkins"
                 destaque="Gear55.Oficial"
-                comentario="Lorem Ipsum is simply dummy text of the printing and typesetting industry... "
+                comentario="Crossover insano entre os universos Marvel e DC. "
             />
 
             <Card
@@ -48,7 +48,7 @@ function Feed() {
                 poster={Arlequina}
                 curtido="Mr.Penguin"
                 destaque="Arlequina"
-                comentario="Lorem Ipsum is simply dummy text of the printing and typesetting industry... "
+                comentario="Meu amor pelo meu Coringa é mais forte do que as paredes de seu hospício. "
             />
 
             <Card
@@ -57,7 +57,7 @@ function Feed() {
                 poster={IronMan}
                 curtido="Cap.Roger70"
                 destaque="Naty.Romanoff"
-                comentario="Lorem Ipsum is simply dummy text of the printing and typesetting industry... "
+                comentario="Temos negócios inacabados. Temos que voltar aonde tudo começou... "
             />
 
             <Card
@@ -66,7 +66,7 @@ function Feed() {
                 poster={Manopla}
                 curtido="god.Deadpool"
                 destaque="Gamora.Oficial"
-                comentario="Lorem Ipsum is simply dummy text of the printing and typesetting industry... "
+                comentario="Poderoso Thanos, seu sucesso é minha felicidade Pai! "
             />
         </div>
     )

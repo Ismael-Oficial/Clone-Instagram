@@ -7,10 +7,13 @@
 
 img {
     width: 50%;
-    margin: 2rem;
+    margin: 2rem 2.5rem;
 }
 
 .Topicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 0rem 2.5rem;
     padding: 0.5px 0px;
 }
@@ -33,4 +36,6 @@ span {
 
 h3 {
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }

@@ -8,7 +8,7 @@
 .card {
     width: 500px;
     height: 650px;
-    margin-bottom: 11rem;
+    margin-bottom: 17rem;
 }
 
 .BarraPerfil {
@@ -38,7 +38,7 @@
     border-radius: 5px;
 }
 
-.post img{
+.post img {
     margin: 0rem;
 }
 
@@ -54,7 +54,12 @@
 }
 
 .icon {
-    margin: 0.5rem;
+    margin: 1rem 0.5rem 0.5rem 0rem;
+    cursor: pointer;
+}
+
+#icon {
+    color: #696969;
     cursor: pointer;
 }
 
@@ -64,4 +69,19 @@ h4 {
 
 .like {
     margin: -1.5rem 0rem;
+}
+
+#more {
+    width: 10%;
+    color: #696969;
+    margin-top: -1.2rem;
+}
+
+.commentary input {
+    width: 95%;
+    height: 30px;
+    margin: 8px 0px;
+    border: none;
+    outline: none;
+    font-family: verdana;
 }

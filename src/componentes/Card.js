@@ -4,6 +4,7 @@ import { AiOutlineHeart } from 'react-icons/ai'
 import { RiChat3Line } from 'react-icons/ri'
 import { TbSend } from 'react-icons/tb'
 import { FiBookmark } from 'react-icons/fi'
+import { BsEmojiSmile } from 'react-icons/bs'
 
 function Card(props) {
     return (
@@ -30,6 +31,11 @@ function Card(props) {
                 <div className={styles.like}>
                     <p>Curtido por <b>{props.curtido}</b> e <b>outras pessoas</b></p>
                     <p><b>{props.destaque}</b> {props.comentario}</p>
+                    <p id={styles.more}>mais</p>
+                </div>
+                <div className={styles.commentary}>
+                    <input type='text' placeholder='Adicione um comentário...'/>
+                    <BsEmojiSmile id={styles.icon}/><hr />
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import Logo from '../Imagens/Logo-font.png'
+import Logo from '../Imagens/Logo-font.jpeg'
 import styles from './LadoEsquerdo.module.css'
 
 import { AiFillHome } from "react-icons/ai";
@@ -16,24 +16,26 @@ function LadoEsquerdo() {
                 <img src={Logo} alt="Logo do Instagram" className={styles.img} />
             </div>
             <div className={styles.Topicos}><h3>
-                < AiFillHome size={25} className={styles.icon}/>
+                < AiFillHome size={25} className={styles.icon} />
                 <span />Página Inicial</h3></div>
-            <div className={styles.Topicos}><p>
-                < FaRegCompass size={25} className={styles.icon}/>Pesquisa</p></div>
-            <div className={styles.Topicos}><p>
-                < AiOutlineSearch size={25} className={styles.icon}/>
-                Explorar</p></div>
-            <div className={styles.Topicos}><p>
-                < RiMessengerLine size={25} className={styles.icon}/>Reels</p></div>
-            <div className={styles.Topicos}><p>
-                < TbSend size={25} className={styles.icon}/>
-                Mensagens</p></div>
-            <div className={styles.Topicos}><p>
-                < BiVideoPlus size={25} className={styles.icon}/>
-                Notificações</p></div>
-            <div className={styles.Topicos}><p>
-                < FiHeart size={25} className={styles.icon}/>
-                Criar</p></div>
+            <div className={styles.Topicos}>
+                < FaRegCompass size={25} className={styles.icon} />
+                <p>Pesquisa</p></div>
+            <div className={styles.Topicos}>
+                < AiOutlineSearch size={25} className={styles.icon} />
+                <p>Explorar</p></div>
+            <div className={styles.Topicos}>
+                < RiMessengerLine size={25} className={styles.icon} />
+                <p>Reels</p></div>
+            <div className={styles.Topicos}>
+                < TbSend size={25} className={styles.icon} />
+                <p>Mensagens</p></div>
+            <div className={styles.Topicos}>
+                < BiVideoPlus size={25} className={styles.icon} />
+                <p>Notificações</p></div>
+            <div className={styles.Topicos}>
+                < FiHeart size={25} className={styles.icon} />
+                <p>Criar</p></div>
         </div>
     )
 }
