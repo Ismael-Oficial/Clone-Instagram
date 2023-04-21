@@ -13,27 +13,35 @@ function Stories() {
         <div className={styles.container}>
             <div className={styles.card}>
                 <img src={Eve} alt='' />
+                <p className={styles.name}>Atomic_Eve</p>
             </div>
             <div className={styles.card}>
                 <img src={America} alt='' />
+                <p className={styles.name}>Cap.Roger70</p>
             </div>
             <div className={styles.card}>
                 <img src={Woman} alt='' />
+                <p className={styles.name}>MWoman_77</p>
             </div>
             <div className={styles.card}>
                 <img src={Cat} alt='' />
+                <p className={styles.name}>Cat.Girl5</p>
             </div>
             <div className={styles.card}>
                 <img src={Panther} alt='' />
+                <p className={styles.name}>Wakanda_King</p>
             </div>
             <div className={styles.card}>
                 <img src={Alerquina} alt='' />
+                <p className={styles.name}>Alerquina</p>
             </div>
             <div className={styles.card}>
                 <img src={Bart} alt='' />
+                <p className={styles.name}>Bart_Allen</p>
             </div>
             <div className={styles.card}>
                 <img src={Girl} alt='' />
+                <p className={styles.name}>Sgirl.Kara</p>
             </div>
         </div>
     )

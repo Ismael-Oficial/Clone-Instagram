@@ -8,13 +8,17 @@
 .card {
     width: 500px;
     height: 650px;
-    margin: 1rem;
+    margin-bottom: 11rem;
 }
 
 .BarraPerfil {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.BarraPerfil img {
+    cursor: pointer;
 }
 
 .perfil {
@@ -41,4 +45,23 @@
 .configs {
     font-size: large;
     font-weight: bold;
+}
+
+.BarraFinal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+h4 {
+    cursor: pointer;
+}
+
+.like {
+    margin: -1.5rem 0rem;
 }
