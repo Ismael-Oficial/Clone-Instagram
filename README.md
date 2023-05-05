@@ -36,8 +36,8 @@
 <hr>
 
 <div>
-  <img src="https://user-images.githubusercontent.com/125465461/234576094-41e9aefe-5f9d-4ee1-86d1-3317450d801b.png">
   <p align="end"><em>Imagem do projeto desenvolvido</em></p>
+  <img src="https://user-images.githubusercontent.com/125465461/234576094-41e9aefe-5f9d-4ee1-86d1-3317450d801b.png">
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00D8FF&height=120&section=footer"/>
